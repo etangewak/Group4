@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bookings and rooms</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External styling -->
+    <link rel="stylesheet" href="/css/roomsandbookingsstyle.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="container">
+        <header class="container">
+            <img src="/images/Hotel logo.jpg" alt="" height="100px">
+        </header>
+            
+        <section>
+            <!-- <div class="jumbotron mx-auto bg-white container-sm" style="max-width: 100%;"> -->
+                <h1 class="display-3 container-md">Rooms and Bookings</h1>    
+                <div class="card-deck mb-5 container-sm">
+                    <div class="card">
+                        <img src="/images/bathub.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Superior room</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/lounge.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Business King</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/3-star-hotel-room.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe room</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card-deck container-sm mb-5">
+                    <div class="card">
+                        <img src="/images/twobeds.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Suite</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/TranscorpHotels_Ambassador-suites.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe Suite</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/room1.jpg" class="card-img-top" alt="..." id="imagesize">
+                        <div class="card-body">
+                            <h5 class="card-title">Royal suite</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#myform" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section>
+                <form  class="mx-auto border border-primary p-2 bg-dark text-white-50 mb-5" id="myform">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Full Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    
+                    <label for="gender">Gender</label>
+                            <!-- <input type="checkbox" name="" id="" checked autocomplete="off"> -->
+                    <div class="btn-group" data-toggle="buttons"> 
+                        <label class="btn btn-outline-primary text-white-50">Male
+                            <input type="checkbox" name="" id="" autocomplete="off">
+                        </label>
+                        <label class="btn btn-outline-primary text-white-50">Female
+                            <input type="checkbox" name="" id="" autocomplete="off">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">What type of room would you want</label>
+                        <select multiple class="form-control" id="exampleFormControlSelect1">
+                            <option>Superior room</option>
+                            <option>Business King</option>
+                            <option>Deluxe room</option>
+                            <option>Junior Suite</option>
+                            <option>Deluxe suite</option>
+                            <option>Royal suite</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">How many days do you plan to stay</label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Would you be staying alone?</label>
+                        <select class="form-control" id="exampleFormControlSelect3">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                    </div>
+                    <div class="btn-grp my-5">
+                        <div class="row">
+                            <div class="col-9">
+                                <button type="button" class="btn btn-outline-primary">Ok</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-outline-primary mx-auto">Cancel</button>        
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                                        
+                </form>
+            </section>
+    
+    </main>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
