@@ -1,3 +1,10 @@
+
+.navbar{
+   height:5em !important;
+   background-color:#084482 !important ;
+
+   font-family: cursive;  
+}
 .pages{
    font-family: cursive;
    font-size: 22px;
