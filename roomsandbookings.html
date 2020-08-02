@@ -13,18 +13,15 @@
   </head>
   <body>
     <main class="container">
-        <header class="container">
-            <img src="/images/Hotel logo.jpg" alt="" height="100px">
-        </header>
-            
+                   
         <section>
             <!-- <div class="jumbotron mx-auto bg-white container-sm" style="max-width: 100%;"> -->
-                <h1 class="display-3 container-md">Rooms and Bookings</h1>    
+                <h1 class="display-3 container-md" id="font">Rooms and Bookings</h1>    
                 <div class="card-deck mb-5 container-sm">
                     <div class="card">
                         <img src="/images/bathub.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Superior room</h5>
+                            <h5 class="card-title" id="font">Superior room</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer">
@@ -34,7 +31,7 @@
                     <div class="card">
                         <img src="/images/lounge.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Business King</h5>
+                            <h5 class="card-title" id="font">Business King</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
@@ -44,7 +41,7 @@
                     <div class="card">
                         <img src="/images/3-star-hotel-room.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Deluxe room</h5>
+                            <h5 class="card-title" id="font">Deluxe room</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
@@ -58,7 +55,7 @@
                     <div class="card">
                         <img src="/images/twobeds.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Junior Suite</h5>
+                            <h5 class="card-title" id="font">Junior Suite</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer">
@@ -68,7 +65,7 @@
                     <div class="card">
                         <img src="/images/TranscorpHotels_Ambassador-suites.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Deluxe Suite</h5>
+                            <h5 class="card-title" id="font">Deluxe Suite</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
@@ -78,7 +75,7 @@
                     <div class="card">
                         <img src="/images/room1.jpg" class="card-img-top" alt="..." id="imagesize">
                         <div class="card-body">
-                            <h5 class="card-title">Royal suite</h5>
+                            <h5 class="card-title" id="font">Royal suite</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
@@ -90,6 +87,7 @@
         
             <section>
                 <form  class="mx-auto border border-primary p-2 bg-dark text-white-50 mb-5" id="myform">
+                    <h1 class="display-2">Details</h1>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Full Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name here">
@@ -112,7 +110,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">What type of room would you want</label>
                         <select multiple class="form-control" id="exampleFormControlSelect1">
-                            <option>Superior room</option>
+                            <option><span class="label label-primary">Superior room  $60</span></option>
                             <option>Business King</option>
                             <option>Deluxe room</option>
                             <option>Junior Suite</option>
@@ -141,10 +139,10 @@
                     </div>
                     <div class="btn-grp my-5">
                         <div class="row">
-                            <div class="col-9">
+                            <div class="col-md-5">
                                 <button type="button" class="btn btn-outline-primary">Ok</button>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3">
                                 <button type="button" class="btn btn-outline-primary mx-auto">Cancel</button>        
                             </div>
                         </div>
