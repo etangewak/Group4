@@ -1,0 +1,28 @@
+.navbar{
+    /* height:5em !important; */
+    color: white;
+    background-color:  #084482 !important;
+    font-family: cursive;  
+    }
+.bg{
+    color: white !important;
+    background-color:  #084482 !important;
+}
+.fab {
+    color:white;
+    font-size: 2em;
+    margin: 0.2em;
+}
+.fas {
+    color:white;
+    font-size: 1rem;
+}
+.far{
+    color:white;
+    font-size: 1rem;
+}
+.btcontact{
+    background-color:  #084482 !important;
+    color: white;
+    font-family: cursive
+}

@@ -43,7 +43,7 @@
     font-family: cursive;
  }
  .form-control{
-    width: 40% !important;
+    width: 100% !important;
  }
  .footer-address{
     font-style: italic;
@@ -67,3 +67,8 @@
     height: 4rem !important;
  }
  
+
+ #btsubscribe{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
