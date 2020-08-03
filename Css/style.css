@@ -1,9 +1,11 @@
 
 .navbar{
    height:5em !important;
-   background-color:#084482 !important ;
-
+   color: black;
    font-family: cursive;  
+}
+body{
+   color: white !important;
 }
 .pages{
    font-family: cursive;
@@ -16,11 +18,10 @@
    padding: 0 !important;
 } 
 .bg{
-   background-color: #084482;
-   color: white;
+   color: white !important;
 }
 .addr{
-   background-color:  #084482 !important;
+
 }
 .border-lenght{
    height: 18em ;
