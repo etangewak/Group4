@@ -1,7 +1,8 @@
 
 .navbar{
-   height:5em !important;
-   color: black;
+   /* height:5em !important; */
+   color: white;
+   background-color:  #084482 !important;
    font-family: cursive;  
 }
 body{
@@ -19,6 +20,7 @@ body{
 } 
 .bg{
    color: white !important;
+   background-color:  #084482 !important;
 }
 .addr{
 
